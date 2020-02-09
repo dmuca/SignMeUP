@@ -13,8 +13,25 @@ export class EventsListComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    this.eventsList = [{'name':'test1'},
-      {'name':'test2'},
-      {'name':'test3'}];
+    this.eventsList = [
+      {
+        'id':'1',
+        'name':'Kawa z dr Stępniem',
+        'date':'15-02-2020',
+        'place':'UP, Sala 401',
+      },
+      {
+        'id':'2',
+        'name':'Piknik Krakowski',
+        'date':'20-04-2020',
+        'place':'Kraków, Rynek Główny',
+      },
+      {
+        'id':'3',
+        'name':'Dzień otwarty UP',
+        'date':'20-09-2020',
+        'place':'Uniwersytet Pedagogiczny',
+      },
+      ];
   }
 }
