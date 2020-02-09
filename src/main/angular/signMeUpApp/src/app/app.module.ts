@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { EventComponent } from './event/event.component';
 import { EventsListComponent } from './events-list/events-list.component';
+import { HomePageComponent } from './home-page/home-page.component';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { EventsListComponent } from './events-list/events-list.component';
     AppComponent,
     NavbarComponent,
     EventComponent,
-    EventsListComponent
+    EventsListComponent,
+    HomePageComponent
   ],
   imports: [
     BrowserModule,
