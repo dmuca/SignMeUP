@@ -6,7 +6,9 @@ import {EventsListComponent} from "./events-list/events-list.component";
 
 const routes: Routes = [
   { path: 'home', component: HomePageComponent},
-  { path: 'events', component: EventsListComponent}
+  { path: 'events', component: EventsListComponent},
+  { path: '',   redirectTo: 'home', pathMatch: 'full' },
+  { path: '**', component: HomePageComponent }
 ];
 
 @NgModule({
